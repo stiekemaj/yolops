@@ -1,5 +1,8 @@
 rootProject.name = "YOLOps"
 
-include("backend")
-include("frontend")
 include("backend:application")
+include("backend:core")
+include("backend:adapters")
+include("backend:ports")
+include("frontend")
+

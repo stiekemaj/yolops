@@ -1,5 +1,12 @@
 plugins {
-    id("base")  // No Java plugin, since this is a frontend module
+    id("com.github.node-gradle.node") version "3.5.1"
+}
+
+node {
+    version.set("18.17.1")
+    npmVersion.set("9.8.1")
+    yarnVersion.set("1.22.19")
+    download.set(true)
 }
 
 tasks.register<Exec>("buildFrontend") {
