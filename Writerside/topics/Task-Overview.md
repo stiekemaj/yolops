@@ -1,7 +1,7 @@
 # YOLOps - Task Overview
 
 ## Introduction
-This document tracks the progress of the YOLOps project by listing tasks across different areas of development.
+This document tracks the progress of the YOLOps project by listing tasks across different areas of development. 
 
 ## Initial Setup
 - [ ] Finalize UI library choice for the frontend.
